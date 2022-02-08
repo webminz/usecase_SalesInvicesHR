@@ -1,0 +1,19 @@
+{
+  "name": "endpoint1",
+  "version": "1.0.0",
+  "description": "This is the endpoint 1 for the demo integration with graphql implemented in javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ole C. von Bargen",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "bluebird": "^3.7.1",
+    "graphql": "^14.6.0",
+    "graphql-tools": "^5.0.0",
+    "sqlite3": "^4.2.0"
+  }
+}
